@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+	    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+	    <link rel="stylesheet" href='static\css\style.css'/>
+		<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+		<style type='text/css'>
+		body {
+			background-image: url('https://cutewallpaper.org/21/1920-x-1080-gif/1920x1080-Wallpapercartoon-Wallpapers-Driverlayer-Search-.gif');
+			background-size: cover;
+			font-family: sans-serif;
+			margin-top: 40px;
+			height: 100vh;
+			padding: 0;
+			margin: 0;
+		}
+	    </style>
+	</head>
+	  
+<body>
+		  <input type="checkbox" id="active">
+		  <label for="active" class="menu-btn"><span></span></label>
+		  <label for="active" class="close"></label>
+		  <div class="wrapper">
+			<ul>
+	  <li><a href="{{ url_for('home') }}">Home</a></li>
+	  <li><a href="{{ url_for('add_user') }}">+User</a></li>
+	  <li><a href="{{ url_for('login') }}">Authentication</a></li>
+	  <li><a href="{{url_for('team')}}">Team</a></li>
+	  <li><a href="#">Feedback</a></li>
+	  </ul>
+	  </div>
+	  <div class="content">
+			<div class="title">
+	  web based face authentication</div>
+	  
+	  </div>
+	  <!-- comment-->
+</body>
+	  
+</html>
